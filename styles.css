@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+  color: white;
+  background-color: black; opacity: 0.8; filter: alpha(opacity=50);
+  padding: 18px 0;
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  /*to fix atop*/
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid;
+  border-color: grey;
+  z-index: 3;
+}
+
+
+p {
+  font-size: 20px;
+}
+
+a {
+  font-size: 25px;
+  text-decoration: none !important;
+  color: #4682B4;
+}
+
+.scrolly {
+  font-size: 16px;
+  text-decoration: none !important;
+  color: white;
+}
+
+li {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h3 {
+  color: white;
+  font-size: 25px;
+}
+
+form {
+  font-size: 30px;
+}
+
+input {
+  font-size: 25px;
+  color: blue;
+  border: black solid 1px;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.submit {
+  color: black;
+  font-size: 20px;
+  padding:5px 15px;
+  background:#ccc;
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.menu {
+  /*border: 1px solid #fff;  /* For debugging */
+  width: 900px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  border: 1px solid #fff;  /* For debugging */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-container {
+  height: 100vh;
+  background-image: url("images/Chicago.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /*background-attachment: fixed;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+}
+
+.welcome-container {
+  color: black;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+ /* background-color: #E8E7E7;*/
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.welcome-add-container {
+  color: black;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  /*background-color: #E8E7E7;*/
+  background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+  padding-bottom: 20px;
+}
+
+.logo {
+  z-index: 2;
+}
+
+
+.our-services-container {
+  color: white;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  height: auto;
+  font-size: 25px;
+  background-image: url("images/navypier.jpeg");
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.our-services-container a {
+  color: #ccffcc;
+  font-size: 25px;
+}
+/*.service-list {
+    -moz-column-count: 4;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 20px;
+    column-count: 4;
+    column-gap: 40px;
+    line-height: 40px;
+    font-size: 30px;
+}*/
+
+.contact-container {
+  padding-top: 50px;
+  padding-left: 20px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-bottom: 20px;
+ /* background-color: #E8E7E7;*/
+  background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+  font-size: 25px;
+}
+
+.contact-us {
+  text-align: left;
+}
+
+.welcome {
+  width: 900px;
+  margin-left: 20px;
+}
+
+.welcome-add {
+  width: 900px;
+  margin-left: 20px;
+}
+
+.team-header {
+  height: 1px;
+}
+
+.team-head-text {
+  color: red;
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  height: auto;
+  vertical-align: center;
+  color: black;
+  font-size: 40px;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: 50px;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.photo-grid {
+  display: flex;
+  justify-content: space-around;    /* Change this */
+  flex-wrap: wrap;
+  width: 80%;
+  height: auto;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+
+.team-text {
+  position: relative;
+  top: 25px;
+  left: 16px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.team-img {
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: 2px 2px grey;
+}
+
+.photo-grid-item {
+  width: 100%;
+  height: 233px;
+}
+
+.chicago-image {
+  height: 450px; /* or auto, try both*/
+  width: 100%;
+}
+
+.smoothScroll {
+  scroll-behavior: smooth;
+  overflow: scroll;
+}
