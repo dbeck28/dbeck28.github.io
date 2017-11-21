@@ -97,11 +97,6 @@ input {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-<<<<<<< HEAD
-  /*background-attachment: fixed;*/
-=======
-  background-attachment: fixed;
->>>>>>> f92f1fa4dfa970c9dbc532735bb52e7caf52dd9e
   display: flex;
   justify-content: center;
   align-items: center;
