@@ -1,10 +1,17 @@
 $(document).ready(function(){
+    $(".menu-container .menu .home a").on('click', function(event) {
+      event.preventDefault();
+      $('html, body').animate({
+          scrollTop: $(".menu-container").offset().top
+          }, 800);
+    })// End if
+
     $(".menu-container .menu .about a").on('click', function(event) {
       event.preventDefault();
       $('html, body').animate({
           scrollTop: $(".welcome-container").offset().top
           }, 800);
-    })// End if
+    })
 
     $(".menu-container .menu .services a").on('click', function(event) {
       event.preventDefault();
