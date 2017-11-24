@@ -97,7 +97,6 @@ input {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -186,17 +185,27 @@ input {
 }
 
 .contact-us {
+<<<<<<< HEAD
+  text-align: left;
+}
+
+.welcome {
+=======
   text-align: center;
 }
 
 .welcome {
   /*border: 1px solid #fff;  /* For debugging */
+>>>>>>> f92f1fa4dfa970c9dbc532735bb52e7caf52dd9e
   width: 900px;
   margin-left: 20px;
 }
 
 .welcome-add {
+<<<<<<< HEAD
+=======
   /*border: 1px solid #fff;  /* For debugging */
+>>>>>>> f92f1fa4dfa970c9dbc532735bb52e7caf52dd9e
   width: 900px;
   margin-left: 20px;
 }
@@ -258,3 +267,8 @@ input {
   height: 450px; /* or auto, try both*/
   width: 100%;
 }
+
+/*.smoothScroll {
+  scroll-behavior: smooth;
+  overflow: scroll;
+}*/

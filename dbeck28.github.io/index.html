@@ -12,7 +12,7 @@
 
   <div class='menu-container'>
     <div class='menu'>
-      <div class='about'><a href="" class="scrolly" id="about-link">F.F.G. Inc.</a></div>
+      <div class='home'><a href="" class="scrolly" id="about-link">F.F.G. Inc.</a></div>
       <div class='divider'>|</div>
       <div class='about'><a href="#welcome" class="scrolly" id="about-link">ABOUT US</a></div>
       <div class='divider'>|</div>
@@ -28,9 +28,11 @@
     <div class='header'>
       <div class='logo'><img src='images/ffglogo2.png' class="chicago-image"/></div>
     </div>
+   </div>
   </div>
-  <a name="welcome"></a>
-  <div class='welcome-container'>
+
+  <a name="welcome" class="smoothScroll"></a>
+  <div class='welcome-container' id="welcome">
     <div class='welcome'>
       <br>
       <br>
@@ -94,7 +96,8 @@
             </p>
        </div>
     </div>
-    <a name="services"></a>
+    <a name="services" class="smoothScroll"></a>
+
     <div class='our-services-container'>
       <div class='services'>
         <h1>Services</h1>
@@ -147,7 +150,10 @@
           We are a contracted live scan fingerprinting vendor for the Illinois Department of Public Health.   This includes students, LPN/RN and Health Care Workers.
           <br>
           <br>
-          <form>
+          <form action="mailto:tderansburg@factfindersgroup.com,jclausell@factfindersgroup.com,obadiah927@hotmail.com"
+            method="POST"
+            enctype="text/plain"
+            name="Fingerprint Email">
             First name: <input type="text" name="fname"><br>
             Last name: <input type="text" name="lname"><br>
             Company: <input type="text" name="companyname"><br>
@@ -246,7 +252,9 @@
                   </div>
                   </div>
                 </div>
-                <a name="contact"></a>
+
+                <a name="contact" class="smoothScroll"></a>
+
                 <div class='contact-container'>
                   <div class='contact-us'>
                     <h1>Contact Us</h1><br>
@@ -257,7 +265,10 @@
                     <p>Fax: 1-708-283-0186</p>
                     <br>
                     <p>Email: kenwebb@factfindersgroup.com</p><br>
-                    <form>
+                    <form form action="mailto:tderansburg@factfindersgroup.com,jclausell@factfindersgroup.com,obadiah927@hotmail.com"
+                      method="POST"
+                      enctype="text/plain"
+                      name="Contact Email">
                       First name: <input type="text" name="fname"><br>
                       Last name: <input type="text" name="lname"><br>
                       Company: <input type="text" name="companyname"><br>
@@ -266,7 +277,8 @@
                       City, State, Zip: <input type="text" name="citystatezipname"><br>
                       Phone: <input type="text" name="phonenumber"><br>
                       Where did you hear about us?: <input type="text" name="phonenumber"><br>
-                      <a name="team"></a>
+
+                      <a name="team" class="smoothScroll"></a>
                       <input
                       type="submit" class="submit" value="Submit">
                     </form>
